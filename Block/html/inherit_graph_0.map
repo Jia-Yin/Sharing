@@ -1,0 +1,6 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$class_ball.html" title="所有球類的基礎類別（父類別） " alt="" coords="5,56,49,83"/>
+<area shape="rect" id="node2" href="$class_bomb.html" title="玩家所發射的炸彈，是球類別的子類別，用來摧毀其他球類 " alt="" coords="112,5,168,32"/>
+<area shape="rect" id="node3" href="$class_color_ball.html" title="彩色球，移動的時候顏色會變化，玩家撞到的話生命力會增加一點 " alt="" coords="103,56,177,83"/>
+<area shape="rect" id="node4" href="$class_hidden_ball.html" title="隱藏球，移動的時候會時隱時現，玩家撞到的話生命力會減少一點 " alt="" coords="97,107,183,133"/>
+</map>

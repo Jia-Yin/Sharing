@@ -1,0 +1,9 @@
+<map id="Board::Score" name="Board::Score">
+<area shape="rect" id="node2" href="$class_board.html#a6d0611f631dcfbf689913bdd824e4757" title="Board::Getry" alt="" coords="152,107,248,133"/>
+<area shape="rect" id="node5" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="497,157,548,184"/>
+<area shape="rect" id="node3" href="$class_ball.html#a721b90e5b195c18261aebdb23590c43a" title="Ball::Ball" alt="" coords="317,56,392,83"/>
+<area shape="rect" id="node4" href="$class_bomb.html#a0d2839c831b35cc83db2e53c44c7ab4b" title="Bomb::Run" alt="" coords="311,107,399,133"/>
+<area shape="rect" id="node6" href="$class_color_ball.html#a1c61f389db91647c328333703eb8910a" title="ColorBall::Run" alt="" coords="301,157,408,184"/>
+<area shape="rect" id="node7" href="$class_hidden_ball.html#a624526ce1c9dcb33be6fdb14be9cea3b" title="HiddenBall::Run" alt="" coords="296,5,413,32"/>
+<area shape="rect" id="node8" href="$class_hidden_ball.html#aa8f73c06e8b108a00fbe7cae344dc4a6" title="HiddenBall::Type" alt="" coords="461,5,584,32"/>
+</map>

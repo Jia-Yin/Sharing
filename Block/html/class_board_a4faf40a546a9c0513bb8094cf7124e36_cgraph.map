@@ -1,0 +1,9 @@
+<map id="Board::Life" name="Board::Life">
+<area shape="rect" id="node2" href="$class_board.html#af70f8a511f8945032d447c1e055673c1" title="Board::Gameover" alt="" coords="139,5,263,32"/>
+<area shape="rect" id="node6" href="$class_board.html#a172645ef41687ecab146fac6408eca25" title="Board::Flash" alt="" coords="153,56,249,83"/>
+<area shape="rect" id="node8" href="$class_board.html#af73f45730119a1fd8f6670f53f959e68" title="Board::~Board" alt="" coords="147,107,254,133"/>
+<area shape="rect" id="node3" href="$rlutil_8cpp.html#ad083f147fbd29d97b5164995e4e21bfd" title="locate" alt="" coords="317,56,375,83"/>
+<area shape="rect" id="node4" href="$rlutil_8cpp.html#a5551ca73ea9118c8dc6dbfd26e72e3d6" title="setColor" alt="" coords="311,5,381,32"/>
+<area shape="rect" id="node5" href="$rlutil_8cpp.html#a32ff7e4a1999338834cc5006e778437e" title="getANSIColor" alt="" coords="429,5,532,32"/>
+<area shape="rect" id="node7" href="$rlutil_8cpp.html#a6cafc9ff37669c7b48b2f718b975610b" title="msleep" alt="" coords="314,107,378,133"/>
+</map>
