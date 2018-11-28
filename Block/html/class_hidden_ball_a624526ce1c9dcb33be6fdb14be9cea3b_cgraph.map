@@ -1,0 +1,11 @@
+<map id="HiddenBall::Run" name="HiddenBall::Run">
+<area shape="rect" id="node2" href="$rlutil_8cpp.html#ad083f147fbd29d97b5164995e4e21bfd" title="locate" alt="" coords="468,95,525,121"/>
+<area shape="rect" id="node3" href="$class_board.html#ab761633798106cfbf5ab1cda9f9ffd6e" title="Board::Getlx" alt="" coords="171,31,266,57"/>
+<area shape="rect" id="node4" href="$class_board.html#aa93141b967c5aee0d59a3c7953b70b09" title="Board::Getrx" alt="" coords="171,81,267,108"/>
+<area shape="rect" id="node5" href="$class_board.html#a236e078c3745ccf0efec7ee03918b174" title="Board::Getly" alt="" coords="171,132,266,159"/>
+<area shape="rect" id="node6" href="$class_board.html#a6d0611f631dcfbf689913bdd824e4757" title="Board::Getry" alt="" coords="171,183,267,209"/>
+<area shape="rect" id="node8" href="$rlutil_8cpp.html#a5551ca73ea9118c8dc6dbfd26e72e3d6" title="setColor" alt="" coords="461,171,532,197"/>
+<area shape="rect" id="node7" href="$class_board.html#a26816dcc05a9f714cd76f6a25eae8583" title="Board::Score" alt="" coords="315,132,413,159"/>
+<area shape="rect" id="node10" href="$class_board.html#a56ac097b006edc308718519f792b9503" title="Board::Kill" alt="" coords="323,183,405,209"/>
+<area shape="rect" id="node9" href="$rlutil_8cpp.html#a32ff7e4a1999338834cc5006e778437e" title="getANSIColor" alt="" coords="580,171,683,197"/>
+</map>

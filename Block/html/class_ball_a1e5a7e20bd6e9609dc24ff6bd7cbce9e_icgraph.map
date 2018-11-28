@@ -1,0 +1,5 @@
+<map id="Ball::Run" name="Ball::Run">
+<area shape="rect" id="node2" href="$class_ball.html#a80f16dbf6043dbeea87200f18624407c" title="Ball::Type" alt="" coords="133,5,214,32"/>
+<area shape="rect" id="node3" href="$class_bomb.html#a0d2839c831b35cc83db2e53c44c7ab4b" title="Bomb::Run" alt="" coords="129,56,217,83"/>
+<area shape="rect" id="node4" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="265,56,316,83"/>
+</map>

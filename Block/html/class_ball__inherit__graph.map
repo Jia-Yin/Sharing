@@ -1,0 +1,5 @@
+<map id="Ball" name="Ball">
+<area shape="rect" id="node2" href="$class_bomb.html" title="玩家所發射的炸彈，是球類別的子類別，用來摧毀其他球類 " alt="" coords="5,80,61,107"/>
+<area shape="rect" id="node3" href="$class_color_ball.html" title="彩色球，移動的時候顏色會變化，玩家撞到的話生命力會增加一點 " alt="" coords="85,80,160,107"/>
+<area shape="rect" id="node4" href="$class_hidden_ball.html" title="隱藏球，移動的時候會時隱時現，玩家撞到的話生命力會減少一點 " alt="" coords="184,80,269,107"/>
+</map>

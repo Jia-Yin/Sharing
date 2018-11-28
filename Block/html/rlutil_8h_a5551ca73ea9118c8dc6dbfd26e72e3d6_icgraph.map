@@ -1,0 +1,21 @@
+<map id="setColor" name="setColor">
+<area shape="rect" id="node2" href="$class_ball.html#a721b90e5b195c18261aebdb23590c43a" title="Ball::Ball" alt="" coords="469,5,544,32"/>
+<area shape="rect" id="node3" href="$class_ball.html#a1e5a7e20bd6e9609dc24ff6bd7cbce9e" title="Ball::Run" alt="" coords="138,259,214,285"/>
+<area shape="rect" id="node7" href="$class_board.html#a26816dcc05a9f714cd76f6a25eae8583" title="Board::Score" alt="" coords="127,157,225,184"/>
+<area shape="rect" id="node9" href="$class_color_ball.html#a1c61f389db91647c328333703eb8910a" title="ColorBall::Run" alt="" coords="453,259,560,285"/>
+<area shape="rect" id="node10" href="$class_hidden_ball.html#a624526ce1c9dcb33be6fdb14be9cea3b" title="HiddenBall::Run" alt="" coords="448,56,565,83"/>
+<area shape="rect" id="node12" href="$class_board.html#af70f8a511f8945032d447c1e055673c1" title="Board::Gameover" alt="" coords="276,613,400,640"/>
+<area shape="rect" id="node14" href="$class_board.html#a172645ef41687ecab146fac6408eca25" title="Board::Flash" alt="" coords="290,664,386,691"/>
+<area shape="rect" id="node15" href="$class_player.html#aba1187bbae33a019f85921c8e8a5e00a" title="Player::Player" alt="" coords="124,461,228,488"/>
+<area shape="rect" id="node16" href="$class_player.html#a468bd0522874d230b8c775cbd21d04cb" title="Player::up" alt="" coords="297,461,379,488"/>
+<area shape="rect" id="node18" href="$class_player.html#a0d83887d9c3df0cf823a7f347c002229" title="Player::down" alt="" coords="289,512,387,539"/>
+<area shape="rect" id="node19" href="$class_player.html#a243cc6cba980b5c8399114c0a64ddcf7" title="Player::left" alt="" coords="295,360,381,387"/>
+<area shape="rect" id="node20" href="$class_player.html#adeb847fac06de410e660143fee16e16d" title="Player::right" alt="" coords="292,411,384,437"/>
+<area shape="rect" id="node4" href="$class_ball.html#a80f16dbf6043dbeea87200f18624407c" title="Ball::Type" alt="" coords="297,259,379,285"/>
+<area shape="rect" id="node5" href="$class_bomb.html#a0d2839c831b35cc83db2e53c44c7ab4b" title="Bomb::Run" alt="" coords="463,208,551,235"/>
+<area shape="rect" id="node6" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="649,436,700,463"/>
+<area shape="rect" id="node8" href="$class_board.html#a6d0611f631dcfbf689913bdd824e4757" title="Board::Getry" alt="" coords="290,157,386,184"/>
+<area shape="rect" id="node11" href="$class_hidden_ball.html#aa8f73c06e8b108a00fbe7cae344dc4a6" title="HiddenBall::Type" alt="" coords="613,56,736,83"/>
+<area shape="rect" id="node13" href="$class_board.html#a4faf40a546a9c0513bb8094cf7124e36" title="Board::Life" alt="" coords="464,613,549,640"/>
+<area shape="rect" id="node17" href="$class_player.html#a790a9fa8de8d56868aae29acb85a6598" title="Player::getPos" alt="" coords="453,411,561,437"/>
+</map>

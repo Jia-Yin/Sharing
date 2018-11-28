@@ -1,0 +1,5 @@
+<map id="Player::down" name="Player::down">
+<area shape="rect" id="node2" href="$rlutil_8cpp.html#ad083f147fbd29d97b5164995e4e21bfd" title="locate" alt="" coords="159,5,216,32"/>
+<area shape="rect" id="node3" href="$rlutil_8cpp.html#a5551ca73ea9118c8dc6dbfd26e72e3d6" title="setColor" alt="" coords="152,56,223,83"/>
+<area shape="rect" id="node4" href="$rlutil_8cpp.html#a32ff7e4a1999338834cc5006e778437e" title="getANSIColor" alt="" coords="271,56,373,83"/>
+</map>
