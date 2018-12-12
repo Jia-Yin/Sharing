@@ -31,21 +31,30 @@ void moveup();
 bool finished();
 
 int CurPos = 18;
+int Lives = 5;
 
 int main()
 {
     FILE *fp;
     SudokuDataHeader sdh;
+    int k;
 
+    cls();
     fp = fopen("sudoku.dat", "rb");
     fread((void*)&sdh, sizeof(sdh),  1, fp); // Read header
+    printf("\n\nMy Sudoku Game\n\n");
     printf("\nTotal Problems = %d\n", sdh.numbers);
-    printf("Each occupys %d bytes.\n\n", sdh.datasize);
-
+    printf("Select problem ID (Input 0 for random) : ");
+    scanf("%d", &k);
     srand(time(NULL)); // Randomize the seed
-    int k = 1; //rand()%sdh.numbers; // Select int from 0~numbers-1
+    if (k<1 || k>sdh.numbers) k = rand() % sdh.numbers;
+    printf("\n\nOK, Problem ID = %d\n", k);
     fseek(fp, (k-1)*sdh.datasize, SEEK_CUR); // Jump k records
     fread((void*)&CurProblem, sizeof(CurProblem), 1, fp);
+
+    printf("Use arrow keys to move. Type number for the blank position.\n");
+    printf("If you make 5 mistakes, then you are out!\n");
+    anykey("Press any key to start. Good luck!");
 
     Solution = CurProblem;
     solve(Solution.data, 0);
@@ -54,6 +63,7 @@ int main()
     int r=0, c=0;
     gotopos(r,c);
     gotoxy(40, 2); std::cout <<"(0,0)"; // Output player
+    gotoxy(40, 3); std::cout <<"Lives = " << Lives;
     int cnt=0;
     bool finish=false;
     while (1) {
@@ -67,20 +77,24 @@ int main()
             else if (k >= '1' && k <= '9') {
                 finish = process_input(k, r, c);
                 if (finish) break;
+                if (!Lives) break;
             } else if (k == rlutil::KEY_ESCAPE) break;
             gotoxy(40, 2); std::cout <<"("<<r+1<<","<<c+1<<")"; // Output player
+            gotoxy(40, 3); std::cout <<"Lives = " << Lives;
         }
-        if (!(++cnt%2000)) { gotoxy(40, 4); std::cout << cnt/2000; }
+        if (!(++cnt%2000)) { gotoxy(40, 4); std::cout << "Times = " << cnt/2000; }
         std::cout.flush();
         r = (r+9) % 9;
         c = (c+9) % 9;
         showcursor();
         gotopos(r,c);
     }
-    gotoxy(40,18);
+    gotoxy(40, 3); std::cout <<"Lives = " << Lives;
+    gotoxy(30,18);
     setColor(15);
-    if (finish) printf("You did it! You use %d time units!\n\n", cnt/2000);
-    else printf("Bye! Bye!\n\n");
+    if (finish) printf("You did it! Spent time = %d!\n\n", cnt/2000);
+    else if (!Lives) printf("You lose the game!\n\n");
+    else printf("You abandoned!\n\n");
 
     return 0;
 }
@@ -103,6 +117,7 @@ bool process_input(int k, int r, int c)
             CurProblem.data[r][c] = k-'0';
             if (finished()) return true;
         } else {
+            Lives--;
             gotoxy(40, 6);
             printf("Error!\x07");
             msleep(500);
