@@ -1,31 +1,31 @@
 #include <stdio.h>
 
-void solve(int board[][8], int pos, int cnt);
-void printBoard(int board[][8]);
-int  isValid(int board[][8], int pos);
+void solve(int pos, int cnt);
+void printBoard();
+int  isValid(int pos);
 
+int board[8][8] = {{0}};
 int total=0;
 
 int main()
 {
-	int board[8][8] = {{0}};
-	solve(board, 0, 0);
+	solve(0, 0);
 	return 0;
 }
 
-void solve(int board[][8], int pos, int cnt)
+void solve(int pos, int cnt)
 {
-	if (cnt==8) { printBoard(board); return; }
+	if (cnt==8) { printBoard(); return; }
 	if (pos==64) return;
-	if (isValid(board, pos)) {
+	if (isValid(pos)) {
 		board[pos/8][pos%8] = 1;
-		solve(board, pos+1, cnt+1);
+		solve(pos+1, cnt+1);
 	}
 	board[pos/8][pos%8] = 0;
-	solve(board, pos+1, cnt);
+	solve(pos+1, cnt);
 }	
 
-void printBoard(int board[][8])
+void printBoard()
 {
 	printf("Solution %d:\n", ++total);
 	for (int i=0; i<8; i++) {
@@ -35,7 +35,7 @@ void printBoard(int board[][8])
 	printf("\n\n");
 }
 
-int isValid(int board[][8], int pos)
+int isValid(int pos)
 {
 	int row=pos/8, col=pos%8;
 	int diff=row-col, sum=row+col;
